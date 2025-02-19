@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <center><h1>Forms</h1></center>
+    <form action="" method="get" autocomplete="on" >
+        <fieldset>
+            <legend>Enter the details:</legend>
+        <table>
+            <tr>
+                <td>
+                    <label for="fn">First Name</label>
+                </td>
+                <td>
+                    <input type="text"  id="fn" placeholder="First Name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>            
+                    <label for="ln">Last Name</label>
+                </td>
+                <td>
+                    <input type="text" id="ln" placeholder="Last Name" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="mail">E-Mail</label>
+                </td>
+                <td>
+                    <input type="email" placeholder="E-Mail" id="mail" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pass">password</label>
+                </td>
+                <td>
+                    <input type="password" placeholder="password" id="pass" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="add">Address</label>
+                </td>
+                <td>
+                    <textarea name="" id="add" placeholder="Add the address" required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="tech">Technologies</label>
+                </td>
+                <td>
+                    <select name="" id="tech">
+                    <option value="" >HTML</option>
+                    <Option value="">JSS</Option>
+                    <option value="">CSS</option>
+                    <option value="">REACT JS</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="date">Enter the date</label>
+                </td>
+                <td>
+                    <input type="datetime-local" id="date" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="file">Choose a file</label>
+                </td>
+                <td>
+                    <input type="file" id="file" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label >Gender</label>
+                </td>
+                <td>
+                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="female">Female
+                    <input type="radio" name="gender" value="others">Others
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pro">Profile</label>
+                </td>
+                <td>
+                    <input type="image" src="https://cdn.pixabay.com/photo/2017/09/07/08/54/money-2724241_640.jpg" height="100px" width="100px" style="border-radius: 50%" id="pro" required>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for=""> Sports</label>
+                </td>
+                <td>
+                    <input type="checkbox" name="sport" value="cricket">cricket
+                    <input type="checkbox" name="sport1" value="football">football
+                    <input type="checkbox" name="sport2" value="volleyball">volleyball
+                    <input type="checkbox" name="sports3" value="rugby">rugby
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ice">Ice-cream falvour</label>
+                </td>
+                <td>
+                    <input list="ice1" name="ice" id="ice">
+                    <datalist id="ice1">
+                        <option value="chocolate">chocolate</option>
+                        <option value="venilla">venilla</option>
+                        <option value="butterscoth">butterscoth</option>
+                        <option value="pista">pista</option>
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="num">enter the number</label>
+                </td>
+                <td>
+                    <input type="tel" id="num" name="number" minlength="1" maxlength="10">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                        <label for="col">choose the color</label>
+                </td>
+                <td>
+                    <input type="color" id="col" name="col">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="col">hidden</label>
+                </td>
+                <td>
+                    <input type="hidden" id="col" name="col">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="col">select the range</label>
+                </td>
+                <td>
+                    <input type="range" id="col" name="col">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="">enter the url</label>
+                </td>
+                <td>
+                    <input type="search">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="submit">Submit</button>
+                </td>
+                <td>
+                    <button type="reset">Cancel</button>
+                </td>
+            </tr>
+            
+              
+            
+        </table>
+    </fieldset>
+    </form>
+</body>
+</html>
