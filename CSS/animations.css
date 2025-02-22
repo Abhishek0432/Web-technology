@@ -1,0 +1,128 @@
+body{
+    background-color: rgb(108, 207, 207);
+}
+
+h1{
+    text-align: center;
+}
+
+#animation-box{
+    background-color: brown;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:100px auto;
+    animation-name:abhi;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+}
+
+/* *{
+    margin: 0;
+} */
+
+@keyframes abhi{
+    from{
+        background-color: aqua;
+    }
+
+    to{
+        background-color: brown;
+    }
+
+    0%{
+        background-color: aqua;
+        position: relative;
+        top:0;
+        left:0;
+    }
+    25%{
+        background-image: url(3D_Smileys-16f88ebb-42fa-39e9-a666-938aba541e65.jpg);
+        background-repeat: no-repeat;
+        background-size: 300px 400px;
+        position: relative;
+        left: 200px;
+        top:0;
+    }
+
+    40%{
+        background-image:url(900-Little-Mercedes-l.jpg);
+        background-repeat: no-repeat;
+        background-size: 300px 400px;
+        border-radius: 30%;
+        position: relative;
+        top: 200px;
+        left:200px;
+
+    }
+
+    65%{
+        background-image: url(7f1adac80b1234149c252df247936795.jpg);
+        background-repeat: no-repeat;
+        background-size: 300px 400px;
+        position: relative;
+        top:200px;
+        left:0px;
+    }
+
+    80%{
+        background-image: url(Duck_Donald-929c1130-32cb-40d6-a543-9fd46b972dc3.jpg);
+        background-repeat: no-repeat;
+        background-size: 300px 400px;
+        border-radius: 50%;
+        position: relative;
+        left:0;
+        top:0;
+    }
+
+    98%{
+        background-image: url(FB_IMG_1567701139181.jpg);
+        background-repeat: no-repeat;
+        background-size: 300px 400px;
+        position: relative;
+        left:0;
+        top:0;
+    }
+}
+
+h4{
+    color: brown;
+    font-size: 50px;
+    position: absolute;
+    left: 200px;
+    top:100px;
+}
+
+span::before{
+    font-size: 60px;
+    content: "cricket";
+    animation: text 5s linear 0s infinite;
+}
+@keyframes text{
+    0%{
+        content: "cricket";
+    }
+
+    25%{
+        content: "carrom";
+        color: yellow;
+    }
+    50%{
+        content: "volleyball";
+        color: blue;
+    }
+
+    75%{
+        content: "batminton";
+        color: aqua;
+    }
+
+    100%{
+        content: "testcricket";
+        color: chocolate;
+    }
+}

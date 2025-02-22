@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #grand-parent h1{
+            color: white;
+            background-color: black;
+        }
+
+        #parent>h1{
+            color: white;
+            background-color: black;
+
+        }
+
+        /* #parent1>h1:nth-child(odd){
+            color: red;
+        }
+        #parent1>h1:nth-last-child(even){
+            color: blue;
+        } */
+        #parent2>p:last-of-type{
+            color: goldenrod;
+            font-size: 40px;
+        }
+
+        #parent1>h1:first-child{
+            color: greenyellow;
+        }
+
+        #parent2>article:last-child{
+            color: aqua;
+        }
+
+        #parent2>article:only-child{
+            color: brown;
+            background-color: yellow;
+        }
+
+        #parent1>p:only-of-type{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div id="grand-parent">
+        <div id="parent1">
+            <h1>first child</h1>
+            <h1>second child</h1>
+            <p>i am third child</p>
+        </div>
+
+        <div id="parent2">
+            <!-- <h1>first child</h1>
+            <h1>second child</h1>
+            <p>iam the first</p>
+            <p>i am third child</p> -->
+            <article>one</article>
+        </div>
+    </div>
+
+ 
+
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+body{
+    background-color:white;
+    background-image: url(IMG_20240907_130627.jpg);
+    background-repeat:repeat-x;
+    background-size: 80% 600px;
+    background-attachment: fixed;
+}
+#img1{
+    /* background-image: url(IMG_20240228_132832.jpg); */
+    height: 500px;
+    width: 50%;
+    background-repeat: no-repeat;
+    background-color: aqua;
+}
+
+#img-container{
+    width: 100%;
+    height: 450px;
+    background-color: aqua;
+}
+
+#parent{
+    height: 400px;
+    width: 100%;
+    background-color: brown;
+    background-image: url(IMG_20240907_215324.jpg),url(IMG_20240907_215324.jpg),url(IMG_20240907_215324.jpg),url(IMG_20240907_215324.jpg);
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
+    background-size: 200px 300px,200px 300px,200px 300px,200px 300px;
+    background-position: 70px 50px,370px 50px,670px 50px,970px 50px;
+}
+

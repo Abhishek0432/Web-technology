@@ -1,0 +1,35 @@
+body{
+    background-color: khaki;
+}
+
+/* #demo */
+/* { */
+
+/* } */
+
+h1{
+    text-align:center;
+    text-shadow: 5px 5px 5px red;
+    text-decoration-thickness: 5px;
+    text-decoration-style: dashed;
+    text-decoration-color: black;
+    text-decoration-line: underline;
+    /* text-decoration: 5px dashed black underline; */
+}
+
+p{
+    height: 500px;
+    background-image: url(IMG_20230920_200822.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+    width: 70%;
+    color: white;
+    margin: 50px auto;
+    text-align: justify;
+    text-indent: 100px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    text-transform: capitalize;
+    border-top-right-radius: 100px;
+}

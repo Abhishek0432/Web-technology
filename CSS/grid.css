@@ -1,0 +1,63 @@
+body{
+    background-color: aquamarine;
+}
+
+#grid-container{
+    height: 600px;
+    width: 80%;
+    background-color: black;
+
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 100px auto 100px;
+    grid-template-rows: 100px 200px 300px;
+     /* column-gap: 5px; */
+    /* row-gap: 2px;  */
+
+    gap:2px 5px;
+}
+
+h1{
+    text-align: center;
+    text-decoration: 5px solid blueviolet underline;
+}
+
+.items{
+    /* height: 100px;
+    width: 100px; */
+    background-color: white;
+    border: 1px solid black;
+}
+
+#grid-items1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+
+#grid-items6{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+
+#grid-items2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#grid-items3{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    background-image: url(FB_IMG_1567701139181.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 400px;
+}

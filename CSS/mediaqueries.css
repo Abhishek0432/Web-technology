@@ -1,0 +1,140 @@
+body{
+    background-color: khaki;
+}
+
+*{
+    margin: 0;
+}
+
+/*mobile */
+
+@media screen and (min-width:320px) and (max-width:480px){
+    body{
+        background-color: hotpink;
+    }
+    
+}
+
+/* tabs */
+@media screen and (min-width:481px) and (max-width:768px){
+    body{
+        background-color: rgb(7, 7, 7);
+    }
+    
+}
+
+/* laptop */
+
+@media screen and (min-width:769px) and (max-width:1020px){
+    body{
+        background-color: rgb(223, 14, 14);
+    }
+    main{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    main>#img{
+        width: 300px;
+        height: 200px;
+        border-radius: 50%;
+    }
+
+    #aside-content{
+        width: 100%;
+    }
+
+    #aside-contents>p{
+        text-align: justify;
+        line-height: 15px;
+        width: 50%;
+    }
+
+    #aside-content>button{
+        background-color: black;
+        color: white;
+        padding: 5px 20px;
+
+        position: absolute;
+        bottom: 80px;
+        left:450px;
+    }
+
+    footer{
+        flex-direction: column;
+        font-size: 20px;
+    }
+
+    nav{
+        flex-direction: column;
+        position: relative;
+        z-index: 8;
+    }
+    
+}
+/* desktop */
+@media screen and (min-width:1021px) and (max-width:1200px){
+    body{
+        background-color: rgb(150, 223, 14);
+    }
+    
+}
+
+/* extra large */
+@media screen and (min-width:1200px){
+    body{
+        background-color: rgb(14, 223, 66);
+    }
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+#middle-contents{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+
+main{
+    height: 500px;
+    width: 100%;
+    background-color: palevioletred;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main>#img{
+    height: 300px;
+    width: 400px;
+    background-image: url(FB_IMG_1567701139181.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px 300px;
+}
+
+#aside-content{
+    width: 40%;
+}
+
+#aside-content>p{
+    width: 100%;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}

@@ -1,0 +1,53 @@
+body{
+    background-color:#f3f3ed;
+}
+
+h1{
+    text-align: center;
+}
+
+  #linear-gradiant{
+    height: 40vh;
+    width: 40vw;
+    background-color: brown;
+    margin: 60px auto;
+    background-image: linear-gradient(to top right,red 0%,red 35%,blue 35%,blue 70%,orange 70%);
+    border: 2px solid black;
+}    
+
+#rlinear-gradiant{
+    height: 40vh;
+    width: 40vw;
+    background-color: brown;
+    margin: 60px auto;
+    background-image: repeating-linear-gradient(to top right,black 0%, black 15%, white 20%);
+
+} 
+
+ #radial-gradiant{
+    height: 40vh;
+    width: 40vw;
+    background-color: brown;
+    margin: 60px auto;
+    background-image: radial-gradient(yellow 0%,yellow 10%,brown 10%,brown 20%,blue 20%);
+
+}  
+ 
+ #rradial-gradiant{
+    height: 40vh;
+    width: 40vw;
+    background-color: brown;
+    margin: 60px auto;
+    background-image: repeating-radial-gradient(brown 0%,brown 15%,yellow 15%,yellow 35%);
+
+} 
+
+ #conic-gradiant{
+    height: 40vh;
+    width: 40vw;
+    background-color: brown;
+    margin: 60px auto;
+    border-radius: 50%;
+    background-image: repeating-conic-gradient(blue 0%,blue 4%,white 40%, white 60%);
+
+} 

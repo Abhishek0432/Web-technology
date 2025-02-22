@@ -1,0 +1,53 @@
+body{
+    background-color:rgb(232, 192, 205);
+}
+
+#rk{
+    color: white;
+    background-color: rgb(20, 20, 154);
+    font-size: 40px;
+}
+#kav{
+    color: black;
+    background-color: LightGreen;
+    font-size: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid black;
+}
+
+.spa{
+    color: red;
+}
+#ra{
+    color: black;
+    background-color: yellow;
+    font-size: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid black;
+}
+#sv{
+    color: black;
+    font-size: 40px;
+}
+#ranju{
+    color: black;
+    background-color:rgb(177, 25, 177);
+    font-size: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid black;
+}
+#manju{
+    color: black;
+    background-color:PaleTurquoise;
+    font-size: 30px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid black;
+}
+#krish{
+    color: black;
+    font-size: 40px;
+}

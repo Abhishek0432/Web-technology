@@ -1,0 +1,134 @@
+
+body{
+    background-color: black;
+}
+#con1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 800px;
+    width: 90%;
+    background-color: aqua;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+*{
+    margin: 0;
+}
+
+#con2{
+    height: 600px;
+    width: 80%;
+    background-color:yellow;
+    border: 2px solid blue;
+    display: flex;
+    align-items:  center;
+    justify-content: space-evenly ;
+    flex-direction: column;
+  
+}
+
+#child1{
+    height: 250px; 
+    width: 70%;
+    background-color:rgb(13, 255, 0);
+    border: 2px solid rgb(255, 0, 183);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  
+}
+
+#child2{
+    height: 250px; 
+    width: 70%;
+    background-color:rgb(13, 255, 0);
+    border: 2px solid rgb(255, 0, 183);
+    display: flex;
+     align-items: center; 
+    justify-content: space-evenly;
+}
+
+#c4{
+    height: 200px;
+    width: 40%;
+
+    background-color:rgb(255, 166, 0);
+    border: 2px solid rgb(98, 0, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+#b1{
+    height: 150px;
+    width: 25%;
+    background-color:rgb(255, 0, 128);
+    border: 2px solid rgb(98, 0, 255);
+}
+
+
+#b2{
+    height: 150px;
+    width: 25%;
+    background-color:rgb(255, 0, 128);
+    border: 2px solid rgb(98, 0, 255);
+}
+
+#b4{
+    height: 150px;
+    width: 25%;
+    background-color:rgb(255, 0, 128);
+    border: 2px solid rgb(98, 0, 255);
+}
+
+#b3{
+    height: 150px;
+    width: 25%;
+    background-color:rgb(255, 0, 128);
+    border: 2px solid rgb(98, 0, 255);
+}
+
+#b5{
+    height: 150px;
+    width: 25%;
+    background-color:rgb(255, 0, 128);
+    border: 2px solid rgb(98, 0, 255);
+}
+
+
+#c5{
+    height: 200px;
+    width: 40%;
+    margin-right: 50px;
+    background-color:rgb(255, 166, 0);
+    border: 2px solid rgb(98, 0, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+} 
+
+#c1{
+    height: 150px;
+    width: 25%;
+    background-color:rgb(255, 0, 128);
+    border: 2px solid rgb(98, 0, 255);
+}
+
+#c2{
+    height: 150px;
+    width: 25%;
+    background-color:rgb(255, 0, 128);
+    border: 2px solid rgb(98, 0, 255);
+}
+
+#c3{
+    height: 150px;
+    width: 25%;
+    background-color:rgb(255, 0, 128);
+    border: 2px solid rgb(98, 0, 255);
+}

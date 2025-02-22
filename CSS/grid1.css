@@ -1,0 +1,63 @@
+body{
+    background-color: brown;
+}
+
+#grid-container{
+    height: 600px;
+    width: 80%;
+    background-color: black;
+    display: grid;
+    grid-template-areas: "s s s"
+                         "c c c"
+                         "v v v"
+                         "t t t"
+                         "d d d"
+                         "f f f";
+}
+
+.items{
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+#grid-items1{
+    grid-area:s;
+    display: grid;
+    grid-template-areas: "q q w w"
+                        "g g w w";
+
+}
+
+.items1{
+    border: 1px solid black;
+}
+
+#grid-items11{
+    grid-area: q;
+}
+#grid-items12{
+    grid-area: g;
+}
+
+#grid-items13{
+    grid-area: w;
+}
+
+#grid-items2{
+    grid-area:c;
+}
+#grid-items3{
+    grid-area:v;
+}
+#grid-items4{
+    grid-area:t;
+}
+#grid-items5{
+    grid-area:d;
+}
+#grid-items6{
+    grid-area:f;
+}
+/* #grid-items1{
+    grid-area:s;
+} */

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            text-align: center;
+            margin: 200px auto;
+            font-size: 70px;
+        }
+
+        body{
+            background-color: khaki;
+        }
+
+        a{
+            color:black;
+        }
+
+        a:link{
+            color:brown;
+        }
+
+        a:visited{
+            color:red;
+        }
+
+        a:hover{
+            color: aqua;
+        }
+
+        a:active{
+            color: blue;
+        }
+
+        #hover{
+            height: 300px;
+            width: 300px;
+            background-image: url(IMG_20240228_132832.jpg);
+            background-repeat: no-repeat;
+            background-size: 300px 300px;
+            border-radius: 5px;
+            font-size: 20px;
+            transition-property: all;
+            transition-duration: 5s;
+            transition-timing-function: linear;
+            transition-delay: 1s;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #hover:hover{
+            background-image: url(IMG_20240907_130627.jpg);
+            border-radius: 100%;
+            font-size: 50px;
+            transform: rotate(360deg);
+            transform: skewX(300deg);
+            transform: skewY(200deg);
+            transform: skew(220deg,250deg);
+            transform: translateX(300px);
+            transform: translateY(300px);
+            transform: translate(-300px,400px);
+            transform: scalex(3);
+            transform: scaleY(3);
+            transform: rotate(60deg) skew(30deg,50deg) scale(2,3) translate(200px,50px);
+        }
+    </style>
+</head>
+<body>
+    
+    <div>
+        <a href="https://instagram.com">submit</a>
+    </div>
+
+    <div id="hover">
+        marriage
+
+    </div>
+</body>
+</html>

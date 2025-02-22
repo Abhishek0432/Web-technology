@@ -1,0 +1,32 @@
+body
+{
+    background-color: aqua;
+}
+#demo
+{
+    color: blueviolet;
+}
+.test
+{
+    color: brown;
+    font-size: 60px;
+}
+aside
+{
+    color: brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    background-color: bisque;
+
+}
+
+h5,i,footer
+{
+    font-size: 70px;
+    color: blueviolet;
+}
+
+*
+{
+    background-color: chartreuse;
+}

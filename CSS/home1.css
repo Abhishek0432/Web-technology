@@ -1,0 +1,33 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+}
+
+#one{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(34, 140, 215);
+    position: relative;
+    top: 70px;
+    
+}
+
+
+#two{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: hwb(0 8% 11%);
+    position: relative;
+    top: 170px;
+
+}
+
+#three{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(97, 213, 8);
+    position: relative;
+    top: 220px;
+
+}

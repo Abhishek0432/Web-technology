@@ -1,0 +1,48 @@
+body{
+    background-color: antiquewhite;
+}
+ h1{
+    text-align: center;
+ }
+
+#flex-container{
+    width: 70%;
+    height: 500px;
+    background-color: black;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row; /*row,row-rev,column,col-rev*/
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.items{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    border: 3px solid black;
+}
+
+#flex-items1{
+    order: 4;
+}
+
+#flex-items2{
+    order: 5;
+}
+
+#flex-items3{
+    order: 6;
+}
+#flex-items4{
+    order: 1;
+}
+
+#flex-items5{
+    order: 3;
+}
+
+#flex-items6{
+    order: 2;
+}

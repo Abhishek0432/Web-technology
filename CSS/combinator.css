@@ -1,0 +1,47 @@
+body{
+    background-color: lavenderblush;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    text-decoration: 2px double black underline;
+}
+
+article{
+    text-align: center;
+}
+
+/* 
+article p{
+    color: blue;
+    font-size: 20px;
+}  */
+
+
+ 
+article>p{
+    color: brown;
+    font-size: 20px;
+} 
+
+
+/* 
+*article+p{
+    color: goldenrod;
+    font-size: 20px;
+} */
+
+
+/* 
+article~p{
+    color: blue;
+    font-size: 20px;
+} 
+
+
+
+
