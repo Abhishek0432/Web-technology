@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Ordered List</title>
+</head>
+<body>
+    <h1>Dynamic Ordered List with JavaScript</h1>
+    <div id="list-container"></div>
+
+    <script>
+        // Function to create an ordered list dynamically
+        function createOrderedList(items) {
+            // Create an ordered list element
+            const ol = document.createElement('ol');
+
+            // Loop through the array of items
+            items.forEach(item => {
+                // Create a list item element
+                const li = document.createElement('li');
+                li.textContent = item; // Set the text content
+                ol.appendChild(li); // Add list item to the ordered list
+            });
+
+            // Add the ordered list to the webpage
+            document.getElementById('list-container').appendChild(ol);
+        }
+
+        // Items for the ordered list
+        const items = ['Apple', 'Banana', 'Cherry', 'Date', 'Elderberry'];
+
+        // Call the function to create the ordered list
+        createOrderedList(items);
+    </script>
+</body>
+</html>
