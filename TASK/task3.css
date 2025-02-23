@@ -1,0 +1,20 @@
+/* body{
+    background-color: white;
+} */
+
+#two{
+    color: black;
+    position: absolute;
+    /* background-color: aqua; */
+    left: 1000px;
+    top: 300px;
+}
+
+#three{
+    position: relative;
+    width:40%;
+    top:350px;
+    left: 800px;
+}
+
+

@@ -1,0 +1,50 @@
+body{
+    background-color: khaki;
+}
+*{
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    background-color: black;
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contents{
+    width: 50%;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1{
+    color: white;
+}
+
+input{
+    padding: 6px 80px;
+}
+
+#one{
+    color: red;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    font-size: 120px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}

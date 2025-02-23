@@ -1,0 +1,93 @@
+#marrii{
+    background-color:skyblue;
+    position: relative;
+    width:100%;
+    height: 950px;
+
+}
+*{
+    /* overflow-x: hidden; */
+    /* overflow-y: hidden; */
+    margin: 0;
+}
+
+#marri2{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+#marri3{
+    width: 100%;
+    height: 130px;
+}
+
+#marri4{
+    width: 100%;
+    height: 130px;
+}
+#marri5{
+    position: absolute;
+    bottom: 0;
+     right: 0; 
+    animation: marri5 7s linear infinite;
+}
+
+@keyframes marri5{
+    0%{
+        transform: translatex(0px);
+    }
+    100%{
+        transform: translate(-700px);
+    }
+}
+
+#marri6{
+    position: absolute;
+    bottom: 150px;
+     left: 0; 
+    animation: marri6 7s linear infinite;
+    
+}
+
+@keyframes marri6{
+    0%{
+        transform: translatex(0px);
+    }
+    100%{
+        transform: translate(700px);
+    }
+}
+
+#marri7{
+    position: absolute;
+    top: 100px;
+    left: 700px;
+    /* animation: marri7 8s linear infinite; */
+}
+
+@keyframes marri7{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translate(300px);
+    }
+
+}
+
+#marri8{
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    animation: marri8 7s linear infinite;
+}
+
+@keyframes marri8{
+    0%{
+        transform: translateX(0px);
+    }
+    100%{
+        transform: translate(600px);
+    }
+}
+

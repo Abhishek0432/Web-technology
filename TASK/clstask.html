@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Watches Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+            padding: 5px 10px;
+        }
+        .navbar a:hover {
+            background-color: #575757;
+            border-radius: 5px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+        .watch {
+            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            overflow: hidden;
+            padding: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .watch img {
+            width: 100%;
+            height: auto;
+        }
+        .watch p {
+            margin: 10px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="menu">
+                <a href="#home">Home</a>
+                <a href="#login">Login</a>
+                <a href="#cart">Cart</a>
+                <a href="#search">Search</a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <h1 style="text-align: center; padding: 20px;">Our Watch Collection</h1>
+        <div class="container">
+            <div class="watch">
+                <img src="https://img.tatacliq.com/images/i19//658Wx734H/MP000000023041623_658Wx734H_202407262021311.jpeg" alt="Watch 1">
+                <p>Watch 1</p>
+            </div>
+            <div class="watch">
+                <img src="https://objects-prod.cdn.chopard.com/q_auto,f_auto,dpr_auto/e_trim/w_iw,h_ih,c_lpad,g_center/c_pad,ar_1:1,w_1490,e_sharpen:60/ProductsAssets/Web/298600-3001_01.png" alt="Watch 2">
+                <p>Watch 2</p>
+            </div>
+            <div class="watch">
+                <img src="data:image/webp;base64,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" alt="Watch 3">
+                <p>Watch 3</p>
+            </div>
+            <div class="watch">
+                <img src="https://via.placeholder.com/200" alt="Watch 4">
+                <p>Watch 4</p>
+            </div>
+            <div class="watch">
+                <img src="https://via.placeholder.com/200" alt="Watch 5">
+                <p>Watch 5</p>
+            </div>
+            <div class="watch">
+                <img src="https://via.placeholder.com/200" alt="Watch 6">
+                <p>Watch 6</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

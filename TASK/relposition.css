@@ -1,0 +1,106 @@
+#test{
+    width: 15%;
+    height: 150px;
+
+
+}
+
+#abhi{
+    width: 10%;
+    height: 100px;
+    position: relative;
+    left: 1000px;
+    bottom: 50px;
+}
+
+#gundya{
+    position: relative;
+    left: 40px;
+}
+#ravya{
+    position: relative;
+    left: 30px;
+}
+
+#bhushya{
+    position: relative;
+    left: 30px;
+}
+
+#kumari{
+    position: relative;
+    left: 20px;
+}
+
+body{
+    background-color: rgb(234, 217, 196);
+}
+#keerthi{
+    position: relative;
+    top: 35px;
+    right: 140px;
+}
+
+#laxman{
+    position: relative;
+    top: 35px;
+    right: 140px;
+}
+#anusha{
+    position: relative;
+    top: 35px;
+    right: 140px;
+}
+#W{
+    position: relative;
+    top:15px;
+    left: 1150px;
+}
+
+#bassu{
+    
+    width: 50%;
+    height: 200px;
+    position: relative;
+    top: 50px;
+    left:650px;
+    text-align: justify;
+}
+
+#faruk{
+    position: relative;
+    left: 30px;
+    bottom: 145px;
+}
+
+#aa{
+    position: relative;
+    width: 20%;
+    bottom: 130px;
+    left: 60px;
+    text-align: justify;
+}
+
+#bb{
+    position: relative;
+    width: 20%;
+    bottom: 310px;
+    left: 360px;
+    text-align: justify;
+}
+
+#cc{
+    position: relative;
+    width: 20%;
+    bottom: 490px;
+    left: 670px;
+    text-align: justify;
+}
+
+#dd{
+    position: relative;
+    width: 20%;
+    bottom: 670px;
+    left: 1000px;
+    text-align: justify;
+}
