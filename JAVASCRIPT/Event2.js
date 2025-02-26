@@ -1,26 +1,26 @@
-// console.log("hiiii");
-// function a() {
-//     console.log("heloooo"); 
-// }
-// a();
-// console.log("byeee");
+ console.log("hiiii");
+ function a() {
+     console.log("heloooo"); 
+}
+a();
+console.log("byeee");
 
-// console.log("hiiii");
-// function a() {
-//     setTimeout(()=>{
-//         console.log("i am first function");
+console.log("hiiii");
+function a() {
+    setTimeout(()=>{
+        console.log("i am first function");
         
-//     },5000)  
-// }
-// a()
-// function b() {
-//     setTimeout(()=>{
-//         console.log("i am second function");
+    },5000)  
+}
+a()
+function b() {
+    setTimeout(()=>{
+        console.log("i am second function");
         
-//     },2000)
-// }
-// b()
-// console.log("byeeee");
+    },2000)
+}
+b()
+console.log("byeeee");
 
 //event propagation
 let a=document.querySelector("#a")
